@@ -1,0 +1,27 @@
+.line {
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.tile {
+  width: 30px;
+  height: 30px;
+  border: solid 1px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.correct {
+  background-color: lightgreen;
+}
+
+.incorrect {
+  background-color: lightgray;
+}
+
+.close {
+  background-color: yellow;
+}
